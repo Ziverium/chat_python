@@ -1,0 +1,33 @@
+/* Center the content of the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Style for the heading */
+.heading {
+  font-size: 3rem; /* Makes the text bigger */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the button */
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5; /* Darker blue when hovering */
+}
